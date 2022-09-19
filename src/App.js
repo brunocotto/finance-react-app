@@ -8,8 +8,14 @@ function App() {
   return (
     <div>
       <Sidebar />
+      <Dashboard />
+      <Sidebar />    
     </div>
   );
 }
 
 export default App;
+
+const Div = styled.div `
+position: relative;
+`;
