@@ -9,7 +9,7 @@ function App() {
     <div>
       <Sidebar />
       <Dashboard />
-      <Sidebar />    
+      <RightSidebar />    
     </div>
   );
 }
