@@ -2,6 +2,7 @@ import React from "react"
 import styled, { StyledComponent } from "styled-components";
 import { FcSimCardChip } from "react-icons/fc";
 import mastercard from "../assets/mastercard.png"
+import avatarImage from "../assets/avatar.jpg"
 
 function Card() {
   return (
@@ -16,7 +17,7 @@ function Card() {
         </div>
 
         <div className="image">
-          <img src="mastercard" className="pic"/>
+          <img src={mastercard} className="pic"/>
         </div>
 
         <div className="name">
@@ -74,7 +75,7 @@ const Section = styled.section`
     display: flex;
     height: 5rem;
     width: 2.5rem;
-    margin-left: 12rem;
+    margin-left: 16rem;
   }
 
   .name {
