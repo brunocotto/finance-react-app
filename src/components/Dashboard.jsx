@@ -25,6 +25,11 @@ height: 60rem;
 background-color: #F5F5F5;
 
 .grid {
-  
+  margin-top: 0.5rem;
+  z-index: 2;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 `;
